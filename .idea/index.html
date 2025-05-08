@@ -25,14 +25,27 @@
         <div>
             <label for="username">Benutzername:</label>
             <input type="text" name="username" required id="username">
+            <div id="usernameError" class="error-message"></div>
         </div>
+
         <div>
             <label for="password">Passwort:</label>
             <input type="password" name="password" required id="password">
+            <div id="passwordError" class="error-message"></div>
         </div>
-        <button type="submit">Anmelden</button>
-    </form>
 
+        <button type="submit">Anmelden</button>
+        <div id="loginError" class="error-message"></div>
+        <div id="successMessage" class="success-message"></div>
+    </form>
     </div>
+
+
+
+
+
+
+
+        <script src="js/login.js"></script>
 </body>
 </html>
